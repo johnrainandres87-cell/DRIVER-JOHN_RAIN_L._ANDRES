@@ -1,5 +1,5 @@
-budget = int(input("\nHow much is your budget for your date? ")
-food = (input("How much will you spend in food? "))
+budget = int(input("\nHow much is your budget for your date? "))
+food = int(input("How much will you spend in food? "))
 transportation = int(input("How much will you spend in transportation? "))
 flowers = int(input("How much will you spend in flowers? "))
 extra_expenses = int(input("How much do you think is your extra expenses? "))
@@ -8,7 +8,7 @@ total_expenses = food + transportation + flowers + extra_expenses
 
 print("Total Expenses:", total_expenses)
 
-if budget <= total_expenses
+if budget <= total_expenses:
     print("Your budget is short")
 else:
     print("Your budget is enough")
